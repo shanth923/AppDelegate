@@ -14,6 +14,7 @@
 		31849C05238CD36C007D5C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31849C03238CD36C007D5C09 /* LaunchScreen.storyboard */; };
 		31849C10238CD36D007D5C09 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31849C0F238CD36D007D5C09 /* AppDelegateTests.swift */; };
 		31849C1B238CD36D007D5C09 /* AppDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31849C1A238CD36D007D5C09 /* AppDelegateUITests.swift */; };
+		31849C29238CD3CA007D5C09 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31849C28238CD3CA007D5C09 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		31849C16238CD36D007D5C09 /* AppDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31849C1A238CD36D007D5C09 /* AppDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateUITests.swift; sourceTree = "<group>"; };
 		31849C1C238CD36D007D5C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31849C28238CD3CA007D5C09 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				31849C01238CD36C007D5C09 /* Assets.xcassets */,
 				31849C03238CD36C007D5C09 /* LaunchScreen.storyboard */,
 				31849C06238CD36C007D5C09 /* Info.plist */,
+				31849C28238CD3CA007D5C09 /* SecondViewController.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31849C29238CD3CA007D5C09 /* SecondViewController.swift in Sources */,
 				31849BFD238CD367007D5C09 /* ViewController.swift in Sources */,
 				31849BFB238CD367007D5C09 /* AppDelegate.swift in Sources */,
 			);
